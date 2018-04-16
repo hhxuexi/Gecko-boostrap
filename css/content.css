@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* common css 公共样式 */
+body { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px;}
+a{ color:#666;}
+a:hover{ text-decoration:none; color:#666;}
+img{ display:block; width:100%; vertical-align:top;}
+
+.ly-nav {
+  background-color: #203260;
+  border:none;
+  border-radius:0;
+  margin-bottom:0;
+  z-index:9999;
+}
+.affix{ position:fixed; top:0; left:50%; margin-left:-585px;}
+.ly-nav .ly-icon-logo{
+	display:inline-block;
+	width:64px;
+	height:64px;
+	vertical-align:middle;
+	}
+.ly-nav .ly-icon-name{
+	display:inline-block;
+	font-size:24px;
+	color:#fff;
+	padding-left:20px;
+	}
+.ly-nav .navbar-brand {
+  color: #777;
+  height:100px;
+  line-height:75px;
+}
+.ly-nav .navbar-brand:hover,
+.ly-nav .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.ly-nav .navbar-text {
+  color: #777;
+}
+.ly-nav .navbar-nav > li > a {
+  color: #6d8ff0;
+  height:100px;
+  line-height:75px;
+  font-size:20px;
+  letter-spacing:4px;
+  padding:10px 30px;
+}
+.ly-nav .navbar-nav > li > a:hover,
+.ly-nav .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #1e2d56;
+}
+.ly-nav .navbar-nav > .active > a,
+.ly-nav .navbar-nav > .active > a:hover,
+.ly-nav .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #1e2d56;
+}
+.ly-nav .navbar-nav > .disabled > a,
+.ly-nav .navbar-nav > .disabled > a:hover,
+.ly-nav .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.ly-nav .navbar-toggle {
+  border-color: #ddd;
+  margin-top:40px;
+}
+.ly-nav .navbar-toggle:hover,
+.ly-nav .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.ly-nav .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.ly-nav .navbar-collapse,
+.ly-nav .navbar-form {
+  border-color: #e7e7e7;
+}
+.ly-nav .navbar-nav > .open > a,
+.ly-nav .navbar-nav > .open > a:hover,
+.ly-nav .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width:992px) {
+.ly-nav .ly-icon-logo{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	vertical-align:middle;
+	}
+.ly-nav .ly-icon-name{
+	display:inline-block;
+	font-size:22px;
+	color:#fff;
+	padding-left:4px;
+	}
+.ly-nav .navbar-nav > li > a {
+  color: #6d8ff0;
+  height:100px;
+  line-height:92px;
+  font-size:18px;
+  letter-spacing:4px;
+  padding:10px 10px;
+}
+	}
+@media (max-width: 767px) {
+	.ly-nav .ly-icon-logo{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	vertical-align:middle;
+	}
+.ly-nav .ly-icon-name{
+	display:inline-block;
+	font-size:16px;
+	color:#fff;
+	padding-left:5px;
+	}
+}
+
+
+.ly-banner { width:100%; padding:60px 0; background:url(../images/banner/banner-bg.png) center center;}
+.ly-banner .banner-text{ padding-top:155px;}
+.ly-banner .banner-text p{ font-size:15px; color:#fff; line-height:1.2; margin-bottom:10px;}
+.ly-banner .banner-text p.title{ font-size:33px;}
+.ly-banner .banner-text p.color{ color:#ffba00;}
+
+@media (max-width:992px) { .ly-banner { padding:30px 0;}}
+
+@media (max-width: 767px) {
+	.ly-banner .banner-text{ .ly-banner { padding:15px 0;}}	
+}
+
+.ly-tab{ width:100%; margin-top:132px; margin-bottom:50px;}
+.ly-tab .ly-tab-title p{ font-size:15px; color:#959595; margin-bottom:8px;}
+.ly-tab .ly-tab-title p.fontSize{ font-size:60px; color:#000;}
+.ly-tab .ly-tab-title .hr{ width:287px; height:2px; background-color:#2d3a67; margin:40px auto 100px;}
+
+.ly-nav-pills{ margin-left:236px; margin-bottom:50px;}
+.ly-nav-pills > li {
+  float: left;
+}
+.ly-nav-pills > li > a {
+	color:#2d3a67;
+  	border-radius: 0;
+  	padding:10px 45px;
+  	background:#ccd2e2;
+}
+.ly-nav-pills > li > a:hover{
+	background:#ccd2e2;
+}
+.ly-nav-pills > li + li {
+  margin-left: 0;
+}
+.ly-nav-pills > li.active > a,
+.ly-nav-pills > li.active > a:hover,
+.ly-nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #2d3a67;
+}
+
+.ly-tab-pane .ly-tab-img{ display:block; border:5px solid #f2f5fa;}
+.ly-tab-pane p{ font-size:17px; color:#253767; margin-left:45px; margin-bottom:16px;}
+.ly-tab-pane .ly-tab-pane-title{ font-size:25px; color:#000; margin-bottom:25px;}
+@media (max-width:992px) { 
+	.ly-nav-pills{ margin-left:0; margin-bottom:25px;}
+	.ly-tab-pane p{ margin-left:0;}
+}
+
+.ly-newList{ width:100%; padding-top:132px; background-color:#f2f5fa; padding-bottom:40px;} 
+.ly-newList .ly-newList-title p{ font-size:15px; color:#959595; margin-bottom:8px;}
+.ly-newList .ly-newList-title p.fontSize{ font-size:60px; color:#000;}
+.ly-newList .ly-newList-title .hr{ width:287px; height:2px; background-color:#2d3a67; margin:40px auto 100px;}
+
+.ly-row {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+  font-size:0;
+}
+.ly-row > li {
+  display: inline-block;
+  padding:0px;
+  width:150px;
+  height:108px;
+  text-align:center;
+  font-size:17px;
+  color:#253767;
+  border-right:1px solid #253767;
+  padding-top:20px;
+}
+.ly-row > li > a{ color:#fff;}
+.ly-row .game{background:#ffba00; border-right:0; font-weight:600; width:50px; text-align:center; line-height:117px; padding-top:0;}
+.ly-row .game-fy{ font-size:30px; color:#fff; border-right:0; background-color:#253767;width:170px; line-height:108px; text-align:center; border-right:0; padding-top:0;}
+.ly-row .ly-buy{ font-size:30px; color:#fff; background:#8094b9; width:170px; line-height:108px; text-align:center; border-right:0; padding-top:0;}
+.ly-row .hide-border{ border-right:0;}
+.footer{ width:100%; background:#38486d; height:120px;}
+.footer .footer-tab{ width:600px; margin:0 auto;}
+.footer .footer-tab li{ color:#fff; font-size:14px;}
+.footer ul{ padding-top:25px; margin:0 auto;}
+.footer p{ text-align:center; font-size:14px; color:#fff; margin-top:15px;}
+
+
+/* user */
+.download, .rebate, .yq{ width:100%; padding:45px 0 70px 0; background:#f2f5fa; margin-bottom:10px;}
+.download .row{ margin-bottom:20px;}
+.download .down, .rebate .rebate-name, .yq-name{ font-size:25px; color:#253767; margin-bottom:40px;}
+.download p{ font-size:18px; color:#203260; height:76px; line-height:76px; text-align:center;}
+.download .down-name{ width:222px; background:#b8c3e1;}
+.download .down-name img{ display:inline-block; width:52px; height:52px; vertical-align:middle; margin-left:24px;}
+.download .down-name p{ display:inline-block; padding-left:24px;}
+
+.rebate .table{ background:#fff; font-size:20px; color:#253767;}
+.rebate .tr-h{ height:68px; line-height:68px; text-align:center;}
+.rebate .table th, .rebate .table td{ line-height:68px; padding:0; margin:0; text-align:center;}
+
+
+.yq p{ font-size:20px; color:#253767;}
+
+
+/* remote */
+.remote{ margin-top:62px;}
+.remote .row{ background:#f2f5fa;}
+.remote .from-bg{ background:#fff; padding:40px;}
+.remote .page-header{ text-align:center; font-size:18px; color:#23315e;}
+.remote .page-header img{ display:inline-block; width:33px; height:33px; vertical-align:middle;}
+.remote .page-header h1{ display:inline-block; vertical-align:middle;}
+
+.remote .from-img img{ width:100px; height:100px; margin:0 auto; margin-bottom:20px;}
+
+.remote .control-label{ font-size:18px; color:#23315e;}
+.remote .form-control { padding:20px;}
+.remote .sizeLogin{ width:47%; text-align:center; margin:20px 0 20px 200px; font-size:20px; color:#fff;
+cursor:pointer; padding:10px;}
+
+.remote .info{ width:47%; font-size:18px; color:#23315e; margin-left:200px;}
+.remote .info .info-color{ color:#6e92ff;}
+.remote .fromLink{ font-size:18px; color:#6e92ff; clear:both; padding:30px 0; margin-left:207px;}
+/* login */
+.remote .from-img h3{ font-size:25px; color:#253767; text-align:center;}
+.remote .from-img p{ font-size:18px; color:#253767; text-align:center;}
+.ly-from{ font-size:18px; color:#6e92ff; margin:30px 0 30px;}
+
+
+/* password */
+.remote .password{ width:20%; margin:20px 0 20px 150px;}
+
+@media (max-width:1200px) {
+	.ly-row > li {width:120px; font-size:14px; padding-top:15px;}
+	.ly-row .game{ width:50px; padding-top:0; line-height:120px;}
+	.ly-row .game-fy{ width:140px; padding-top:0}
+	.ly-row .ly-buy{ width:140px; padding-top:0;}
+	}
+@media (max-width:992px) {
+	.ly-row > li {width:80px; font-size:14px; padding-top:15px;}
+	.ly-row .game{ width:50px; padding-top:0;}
+	.ly-row .game-fy{ width:140px; padding-top:0}
+	.ly-row .ly-buy{ width:140px; padding-top:0;}e
+	}
+@media (max-width:768px) {
+	.ly-row > li {width:80px; font-size:12px; padding-top:15px;}
+	.ly-row .game{ width:40px; font-size:12px; padding-top:0}
+	.ly-row .game-fy{ width:150px; font-size:16px; padding-top:0;}
+	.ly-row .ly-buy{ width:150px; font-size:16px;  padding-top:0}
+	}
+
