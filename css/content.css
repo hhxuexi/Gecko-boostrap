@@ -14,7 +14,7 @@ img{ display:block; width:100%; vertical-align:top;}
   margin-bottom:0;
   z-index:9999;
 }
-.affix{ position:fixed; top:0; left:50%; margin-left:-585px;}
+.affix{ position:fixed; top:0; left:0; width:100%;}
 .ly-nav .ly-icon-logo{
 	display:inline-block;
 	width:64px;
