@@ -8,6 +8,7 @@ a:hover{ text-decoration:none; color:#666;}
 img{ display:block; width:100%; vertical-align:top;}
 
 .ly-nav {
+  width:100%;	
   background-color: #203260;
   border:none;
   border-radius:0;
